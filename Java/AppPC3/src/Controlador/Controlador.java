@@ -21,27 +21,24 @@ public class Controlador {
        vista.mostrarMenu();
        int opcion= lectorDatos.leerEntero("Seleccione una opcion");
        switch(opcion){
-           case 1:
+           case 1 -> {
                int entero=lectorDatos.leerEntero("Ingrese un numero entero");
                vista.mostrarMensaje("El numero entero ingresado es:"+entero);
-               break;
-           case 2:
+               }
+           case 2 -> {
                double decimal=lectorDatos.leerDouble("Ingrese un numero decimal: ");
                vista.mostrarMensaje("El numero decimal ingresado es: "+decimal);
-               break;
-           case 3:
+               }
+           case 3 -> {
                char caracter=lectorDatos.leerChar("Ingrese un caracter: ");
                vista.mostrarMensaje("El caracter ingresado es:"+caracter);
-               break;
-           case 4:
+               }
+           case 4 -> {
                String cadena=lectorDatos.leerCadena("Ingrese una cadena: ");
                vista.mostrarMensaje("La cadena ingresada es: "+cadena);
-               break;
-           case 5:
-               salir=true;
-               break;
-           default:
-               System.out.println("Ingreso invalido");
+               }
+           case 5 -> salir=true;
+           default -> System.out.println("Ingreso invalido");
        }
        }
        lectorDatos.cerrar();
