@@ -17,7 +17,7 @@ public class Ejecutar {
         laptop.apagar();
         System.out.println("===========================================");
         System.out.println("----------Desktop------------");
-        Desktop desktop=new Desktop("D001","Oficina UTP","HP","HP1891283","Intel Celeron","12 GBs DDR3","64 bits","Windows 11","HDMI","Jack 3.5mm");
+        Desktop desktop=new Desktop("D001","Oficina UTP","HP","HP1891283","Intel Celeron","12 GBs DDR3","64 bits","Windows 11","Asus BMZ1200","HDMI","Jack 3.5mm");
         desktop.apagar();
         desktop.encender();
         desktop.gestionarCPU();

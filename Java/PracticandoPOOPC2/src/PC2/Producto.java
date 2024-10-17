@@ -4,7 +4,7 @@ package PC2;
  *
  * @author User
  */
-public abstract class Producto {
+public abstract class Producto implements ProductoElectronico{
     private String codigo;
     private String nombre;
     private String marca;

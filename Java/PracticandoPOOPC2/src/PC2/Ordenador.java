@@ -4,7 +4,7 @@ package PC2;
  *
  * @author User
  */
-public abstract class Ordenador extends Producto implements ProductoElectronico{
+public abstract class Ordenador extends Producto {
     private String CPU;
     private String memoriaRam;
     private String arquitectura="64 bits";

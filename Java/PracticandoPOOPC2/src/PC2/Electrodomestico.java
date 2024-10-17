@@ -4,7 +4,7 @@ package PC2;
  *
  * @author User
  */
-public abstract class Electrodomestico extends Producto implements ProductoElectronico{
+public abstract class Electrodomestico extends Producto{
     private String SystemControl;
     private String ClaseEficienciaEnergia;
 
